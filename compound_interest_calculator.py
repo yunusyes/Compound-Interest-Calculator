@@ -12,9 +12,13 @@ class compound_interest_calculator:
         calculated_amount = self.amount*(1 + self.interest_rate/100)**self.years
         return calculated_amount
         
-calc = compound_interest_calculator()
-result = calc.calculate()
-print(result)
+def main():
+    calc = compound_interest_calculator()
+    result = calc.calculate()
+    print(result)
+    
+if __name__ == "__main__":
+    main()
 
 
     
